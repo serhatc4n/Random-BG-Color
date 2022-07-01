@@ -7,5 +7,4 @@ button.addEventListener('click', () => {
     color += Math.random().toString(16).slice(2, 8);
     bgEl.style.backgroundColor = color;
     h2El.innerText = color;
-    console.log(color);
 });
